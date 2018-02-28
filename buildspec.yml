@@ -5,7 +5,7 @@ env:
     # Make sure to provide a valid S3 bucket name (it must exist already).
     # The CodeBuild IAM role must allow write access to it.
     S3_BUCKET: "theunis-s3-bucket"
-    PACKAGE: "github.com/aws-samples/lambda-go-samples"
+    PACKAGE: "github.com/TVictor/aws-go-lambda-poc"
 
 phases:
   install:
