@@ -1,0 +1,45 @@
+{
+    "build": {
+        "@saveall": true
+    },
+    "language": {
+        "tern_defs": {
+            "json()": {
+                "browser": {
+                    "enabled": true
+                },
+                "ecma5": {
+                    "enabled": true
+                },
+                "jQuery": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    "run": {
+        "configs": {
+            "@inited": "true",
+            "json()": {
+                "hello.go": {
+                    "command": "hello.go 5 9",
+                    "debug": false,
+                    "env": {},
+                    "name": "hello.go",
+                    "runner": "Go",
+                    "toolbar": true
+                },
+                "s3.go": {
+                    "command": "s3.go theunis-test-bucket us-east-2",
+                    "debug": false,
+                    "name": "s3.go",
+                    "runner": "Go",
+                    "toolbar": true
+                }
+            }
+        }
+    },
+    "welcome": {
+        "@first": true
+    }
+}
